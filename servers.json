@@ -1,1 +1,86 @@
-0
+{
+  "version": 1,
+  "updated_at": "2026-11-01T12:00:00Z",
+  "servers": [
+    {
+      "id": 1,
+      "name": "TikWM Base API",
+      "type": "tikwm_get",
+      "endpoint": "https://www.tikwm.com/api/?url={URL}&hd=1",
+      "pingUrl": "https://www.tikwm.com/api/",
+      "enabled": true
+    },
+    {
+      "id": 2,
+      "name": "TikWM POST API",
+      "type": "tikwm_post",
+      "endpoint": "https://www.tikwm.com/api/",
+      "pingUrl": "https://www.tikwm.com/api/",
+      "enabled": true
+    },
+    {
+      "id": 3,
+      "name": "LoveTik Direct API",
+      "type": "lovetik",
+      "endpoint": "https://lovetik.com/api/ajax/search",
+      "pingUrl": "https://lovetik.com/",
+      "enabled": true
+    },
+    {
+      "id": 4,
+      "name": "TikWM Mirror API",
+      "type": "tikwm_get",
+      "endpoint": "https://tikwm.com/api/?url={URL}",
+      "pingUrl": "https://tikwm.com/api/",
+      "enabled": true
+    },
+    {
+      "id": 5,
+      "name": "TDown Cloudflare Worker",
+      "type": "tdown",
+      "endpoint": "https://tdownv4.sl-bjs.workers.dev/?down={URL}",
+      "pingUrl": "https://tdownv4.sl-bjs.workers.dev/",
+      "enabled": true
+    },
+    {
+      "id": 6,
+      "name": "SSSTik HTMX Gateway",
+      "type": "ssstik",
+      "endpoint": "https://ssstik.io/abc?url=dl",
+      "pingUrl": "https://ssstik.io/",
+      "enabled": true
+    },
+    {
+      "id": 7,
+      "name": "TikSave Mirror API",
+      "type": "tiksave",
+      "endpoint": "https://api.tiksave.io/v1/download?url={URL}",
+      "pingUrl": "https://api.tiksave.io/",
+      "enabled": true
+    },
+    {
+      "id": 8,
+      "name": "MusicalDown API",
+      "type": "musicaldown",
+      "endpoint": "https://musicaldown.com/download",
+      "pingUrl": "https://musicaldown.com/",
+      "enabled": true
+    },
+    {
+      "id": 9,
+      "name": "SnapTik Gateway",
+      "type": "snaptik",
+      "endpoint": "https://snaptik-api.vercel.app/api?url={URL}",
+      "pingUrl": "https://snaptik-api.vercel.app/",
+      "enabled": true
+    },
+    {
+      "id": 10,
+      "name": "TikWM ID Fallback",
+      "type": "tikwm_id",
+      "endpoint": "https://www.tikwm.com/api/?url={ID}&hd=1",
+      "pingUrl": "https://www.tikwm.com/",
+      "enabled": true
+    }
+  ]
+}
